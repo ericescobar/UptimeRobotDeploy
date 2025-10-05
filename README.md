@@ -1,3 +1,10 @@
+## Usage
+
+```
+./install-heartbeat.sh --api-key APIKEY --name "Friendly Name" --email EMAIL [options] --app-id [you will know after first run]
+```
+
+
 # install-heartbeat.sh
 
 A single Bash installer that creates an **UptimeRobot Heartbeat monitor** via API and installs a **per-minute cron job** to ping it from the host. Designed for quick rollout across Linux boxes.
@@ -46,11 +53,7 @@ What this does:
 
 ---
 
-## Usage
 
-```
-./install-heartbeat.sh --api-key APIKEY --name "Friendly Name" --email EMAIL [options]
-```
 
 ### Required flags
 
